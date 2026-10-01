@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asisten AI UMKM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <h1>Restu Setya Nugroho</h1>
+            <p>20240140228</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#profile">Profil</a>
+        <a href="#formdata">Form</a>
+    </nav>
+
+    <main>
+        <section id="profile">
+            <h2>About</h2>
+            <p>Masukkan data diri Anda pada form di bawah ini.</p>
+        </section>
+
+        <section id="formdata">
+            <h2>Form Data Diri</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Masukkan nama Anda:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <fieldset>
+                    <legend>Jenis Kelamin:</legend>
+                    <div class="choices">
+                        <input type="radio" name="jenis_kelamin" id="pria" value="Laki-laki" required>
+                        <label for="pria">Laki-laki</label>
+                        <input type="radio" name="jenis_kelamin" id="wanita" value="Perempuan" required>
+                        <label for="wanita">Perempuan</label>
+                    </div>
+                </fieldset>
+
+                <p>
+                    <img src="Screenshot 2026-09-24 145029.png" alt="Screenshot tampilan form data diri" width="300">
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Restu Setya Nugroho - TI-501 Pengembangan Aplikasi Web</p>
+    </footer>
+</body>
+</html>
